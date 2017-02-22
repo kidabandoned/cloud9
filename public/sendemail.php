@@ -3,7 +3,7 @@
 	$status = array(
 		'type'=>'success',
 		'message'=>'Thank you for contact us. As early as possible  we will contact you '
-	);
+	); 
 
     $name       = @trim(stripslashes($_POST['name'])); 
     $email      = @trim(stripslashes($_POST['email'])); 
